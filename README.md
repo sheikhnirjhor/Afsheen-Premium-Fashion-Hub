@@ -11,21 +11,26 @@ Afsheen Premium Fashion Hub is an e-commerce fashion platform designed for custo
 * Size Selection
 * Stock Availability Check
 * Shopping Cart
-* Online Payment (bKash, Bank Payment)
+* Booking Guideline
+* Online Payment (bKash,Bank Payment,Nagad,Visa Card,Master Card,Debit Card)
+* Voucher Coupon
 * Cash on Delivery
 * Order Management
+* Return Policy
 
+  
 ## Target Users
 
-* Fashion Customers
+* Buyer
 * Business Owner
-* Admin
+* Moderator Panel
+  
 
 ## Technologies
 
 * Frontend: HTML, CSS, JavaScript
 * Backend: PHP / Laravel (or Node.js)
-* Database: MySQL
+* Database: FireBase
 
 ## Documentation
 
