@@ -1,6 +1,6 @@
 # Afsheen Premium Fashion Hub
 
-## Project Overview
+## Project Overviews
 
 Afsheen Premium Fashion Hub is an e-commerce fashion platform designed for customers to browse premium fashion products, select sizes, check product availability, and place orders online.
 
