@@ -33,4 +33,7 @@
     "tsx": "^4.21.0",
     "typescript": "~5.8.2"
   }
+  "dependencies": {
+    "firebase": "^10.8.0",
+    "@google/genai": "^2.4.0"
 }
