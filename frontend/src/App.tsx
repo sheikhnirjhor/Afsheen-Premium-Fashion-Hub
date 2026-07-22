@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { db } from './firebase';
+import { collection, getDocs, addDoc, updateDoc, doc, deleteDoc } from 'firebase/firestore';                                                                  import React, { useState, useEffect } from 'react';
 import { Product, User, Order, Review, CartItem } from './types';
 import { HomeView } from './components/HomeView';
 import { ShopView } from './components/ShopView';
