@@ -1,19 +1,7 @@
 services:
   - type: web
     name: afsheen-backend
-    runtime: python
+    env: python
+    rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11"
-      - key: FIREBASE_CREDENTIALS_JSON
-        sync: false
-      - key: FIREBASE_PROJECT_ID
-        sync: false
-      - key: SSLCOMMERZ_STORE_ID
-        sync: false
-      - key: SSLCOMMERZ_STORE_PASS
-        sync: false
-      - key: SSLCOMMERZ_IS_LIVE
-        value: "false"
