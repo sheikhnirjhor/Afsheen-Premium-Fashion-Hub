@@ -17,6 +17,7 @@ class Settings:
         "http://localhost:3000",
         "http://localhost:5173",
         "https://afsheen-fashion.web.app",
+        "https://afsheen-premium-fashion-hub.netlify.app",
     ]
 
     # Payment Gateway (SSLCommerz)
