@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFDF7;
+  color: #1a1a1a;
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #C9A84C 0%, #FFD74D 50%, #C9A84C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .border-gold {
+    border-color: #C9A84C;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-gold-500 text-white px-6 py-3 rounded-lg font-semibold 
+           hover:bg-gold-600 transition-all duration-300 
+           shadow-luxury hover:shadow-luxury-lg
+           active:scale-95;
+  }
+
+  .btn-outline-gold {
+    @apply border-2 border-gold-500 text-gold-500 px-6 py-3 rounded-lg font-semibold 
+           hover:bg-gold-500 hover:text-white transition-all duration-300
+           active:scale-95;
+  }
+
+  .btn-navy {
+    @apply bg-navy-500 text-white px-6 py-3 rounded-lg font-semibold 
+           hover:bg-navy-600 transition-all duration-300
+           active:scale-95;
+  }
+
+  .input-luxury {
+    @apply w-full px-4 py-3 border border-cream-600 rounded-lg 
+           focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent
+           bg-white transition-all duration-300;
+  }
+
+  .card-luxury {
+    @apply bg-white rounded-2xl shadow-card hover:shadow-card-hover 
+           transition-all duration-300 overflow-hidden;
+  }
+
+  .badge-gold {
+    @apply bg-gold-100 text-gold-700 px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-12 lg:py-20;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
