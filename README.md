@@ -6,10 +6,10 @@ Premium Ethnic Fashion, Bridal Wear & Luxury Accessories E-commerce Platform. Se
 
 | Service | URL |
 |---------|-----|
-| 🌐 Frontend (Netlify) | [https://afsheen-premium-fashion-hub.netlify.app](https://afsheen-premium-fashion-hub.netlify.app) |
-| 🔧 Backend API (Render) | [https://afsheen-premium-fashion-hub.onrender.com](https://afsheen-premium-fashion-hub.onrender.com) |
-| 📖 API Documentation (Swagger UI) | [https://afsheen-premium-fashion-hub.onrender.com/docs](https://afsheen-premium-fashion-hub.onrender.com/docs) |
-| 📚 API Documentation (ReDoc) | [https://afsheen-premium-fashion-hub.onrender.com/redoc](https://afsheen-premium-fashion-hub.onrender.com/redoc) |
+| 🌐 Frontend (Netlify) | [https://afsheen-hub.netlify.app](https://afsheen-hub.netlify.app) |
+| 🔧 Backend API (Render) | [https://afsheen-hub.onrender.com](https://afsheen-hub.onrender.com) |
+| 📖 API Documentation (Swagger UI) | [https://afsheen-hub.onrender.com/docs](https://afsheen-hub.onrender.com/docs) |
+| 📚 API Documentation (ReDoc) | [https://afsheen-hub.onrender.com/redoc](https://afsheen-hub.onrender.com/redoc) |
 
 ## Tech Stack
 
