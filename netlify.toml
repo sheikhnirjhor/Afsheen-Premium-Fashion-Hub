@@ -1,19 +1,9 @@
 [build]
   base = "frontend"
-  command = "npm install && npm run build"
-  publish = "build"
-
-[build.environment]
-  NODE_VERSION = "18"
+  publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    Referrer-Policy = "strict-origin-when-cross-origin"
