@@ -2,6 +2,15 @@
 
 Premium Ethnic Fashion, Bridal Wear & Luxury Accessories E-commerce Platform. Serving customers since 2020 with 229K+ Facebook followers.
 
+## Live Links
+
+| Service | URL |
+|---------|-----|
+| 🌐 Frontend (Netlify) | [https://afsheen-premium-fashion-hub.netlify.app](https://afsheen-premium-fashion-hub.netlify.app) |
+| 🔧 Backend API (Render) | [https://afsheen-premium-fashion-hub.onrender.com](https://afsheen-premium-fashion-hub.onrender.com) |
+| 📖 API Documentation (Swagger UI) | [https://afsheen-premium-fashion-hub.onrender.com/docs](https://afsheen-premium-fashion-hub.onrender.com/docs) |
+| 📚 API Documentation (ReDoc) | [https://afsheen-premium-fashion-hub.onrender.com/redoc](https://afsheen-premium-fashion-hub.onrender.com/redoc) |
+
 ## Tech Stack
 
 - **Frontend:** React.js 18, Tailwind CSS, React Router, Framer Motion
